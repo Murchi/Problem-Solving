@@ -1,4 +1,7 @@
-/*Given an array of integers of size ‘n’. calculate the maximum sum possible for ‘k’ consecutive elements in the array.*/
+/*Given an array of integers of size ‘n’. calculate the maximum sum possible for ‘k’ consecutive elements in the array.
+Input :array : {100,200,300,400} k = 2
+Output : 700
+*/
 
 
 
