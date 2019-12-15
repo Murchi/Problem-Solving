@@ -1,3 +1,7 @@
+//program to print the length of longest common substring
+
+
+
 import java.io.*;
 import java.util.*;
 
