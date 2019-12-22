@@ -1,3 +1,6 @@
+//Write a function that takes two parameters n and k and returns the value of Binomial Coefficient C(n, k).
+
+
 import java.io.*;
 import java.io.*;
 
