@@ -12,6 +12,8 @@ lis[i]=1;
 }
 for(int i=1;i<len;i++) {
 for(int j=0;j<i;j++) {
+	//check for lis[i]<lis[j] is made in order to check if after including the current element the 
+	//length decreases, if yes then do not condisder adding that length
 	if(arr[j]<arr[i] && lis[i]<lis[j]+1) {
 		lis[i]=lis[j]+1;
 	}
