@@ -21,7 +21,7 @@ public class SubSetSum {
 			for(int j=1;j<=sum;j++) {
 
 				if(input[i-1]>j)
-				res[i][j] = res[i-1][j-1];
+				res[i][j] = res[i-1][j];
 
 				else 
 				res[i][j] = res[i-1][j] || res[i-1][j-input[i-1]];
