@@ -1,3 +1,5 @@
+/*Quick sort last element is taken as pivot */
+
 import java.io.*;
 import java.util.*;
 
